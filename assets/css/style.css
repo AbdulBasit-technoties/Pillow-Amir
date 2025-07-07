@@ -15,7 +15,6 @@ p {
   font-weight: 400;
   line-height: 1.6;
   letter-spacing: 0.02em;
-  color: black;
 }
 a {
   display: inline-block;
@@ -118,7 +117,7 @@ border-radius:20px;
   top: 0;
 }
 .banner-content h2{
-  font-size: 60px;
+  font-size: 55px;
 }
 .sale h6 span{
   background-color: var(--green);
@@ -128,7 +127,8 @@ border-radius:20px;
 }
 .shop a,
 .banner-content h2 span,
-.frequently span{
+.frequently span,
+.gallary h3 span{
   color: var(--green) !important;
 }
 .slick-prev,
@@ -190,6 +190,16 @@ border-radius:20px;
 }
 /* section 1 css end */
 /* section 2 css start */
+.layer-b {
+   position: absolute;
+  top:10%;
+  left: -4%;
+  border-radius: 40px;
+  height: 95%;
+  width: 100%;
+  background: linear-gradient(to right, #D1F4ED, #B1F1E4, #71EAD2);
+  z-index: -1;
+}
 .perfect li i,
 .perfect-side li i{
   width: 25px;
@@ -207,6 +217,17 @@ border-radius:20px;
 /* section 2 css end */
 
 /* section 4 css start */
+.layer-b-2{
+   position: absolute;
+  top:10%;
+  right: 13%;
+  border-radius: 40px;
+  height: 95%;
+  width: 60%;
+  background: linear-gradient(to right, #D1F4ED, #B1F1E4, #71EAD2);
+  z-index: -1; 
+}
+
 .perfect-button a::before {
   content: "";
   position: absolute;
@@ -225,7 +246,7 @@ border-radius:20px;
 .perfect-button a {
   border: solid 1px var(--green);
   background-color: var(--white);
-  z-index: 1;
+  z-index: 999;
 }
 .perfect-button a:hover {
   color: var(--white) !important;
@@ -244,23 +265,17 @@ border-radius:20px;
 .perfect-side-img img{
   width: 65%;
 }
+/* section 4 css end */
+/* section 6 css start */
 .image-1 img{
   background-color: var(--green);
-  
 }
 .image-4 img{
   background-color: #E5B301;
 }
-.slide {
-  background-color: #00AD8B;
-  height: 50%;
-  border-radius:40px ;
-}
+
 .slide-image{
   z-index: 2 ;
-}
-.slide{
-  z-index: 3;
 }
 
 .background-color-layer {
@@ -278,7 +293,9 @@ border-radius:20px;
   position: relative;
   z-index: 1;
 }
-.frequently p{
+
+.frequently p,
+.gallary p{
   color: #545454;
 }
 
@@ -319,3 +336,351 @@ border-radius:20px;
 .accordion-button:not(.collapsed)::before {
   background-color: yellow;
 }
+
+/* section 6 css end */
+/* section 7 css start */
+
+.reads h3 span{
+  color: var(--green);
+} 
+.read-box{
+  border-radius: 10px;
+}
+.box-content p{
+  color:#545454;
+  font-size: 13px;
+}
+.box-content span{
+  color:#545454;
+  font-size: 10px;
+}
+.box-content a{
+  font-size: 13px;
+  transition: all 0.5s ease;
+  color: var(--green) !important;
+}
+.box-content a:hover{
+  color: #545454 !important; 
+}
+/* section 7 css end */
+
+/* Section 8 css start */
+
+.section-8,
+.section-9{
+  background-color:#E5E5E5;
+}
+.supporting {
+  transform: translateX(-25%);
+  width: 600px;
+  top:-47px;
+}
+
+.supporting img,
+.your-pillow img{
+  width: 100%;
+  height: 586px;
+}
+.perfect span{
+  color: var(--green);
+}
+
+ul.feature-list li{
+ width: 48% ;
+}
+.comfortable p{
+  font-size: 14px;
+  color: #808080;
+}
+.comfortable h6{
+   font-size: 17px;
+}
+h6.for{
+   font-size: 15px;
+}
+/* section 8 css end */
+
+/* section 9 css start */
+
+.your-pillow {
+  transform: translateX(13%);
+  width: 100%;
+  top:-47px;
+}
+.your-pillow img{
+  height: 586px;
+}
+.your {
+  width: 70%;
+}
+/* section 9 css end */
+
+.client-heading h3 span{
+  color: var(--green);
+}
+.client-heading p{
+  width: 65%;
+}
+.section-10{
+  background-color: #E1FFEF38;
+}
+.client-box p{
+  font-size: 14px;
+}
+.client-image img{
+  width: 45px;
+  height: 45px;
+}
+.robert h6{
+  font-size:14px;
+}
+.robert p,
+.subcribe p{
+  color:#999999;
+}
+.client-star i{
+  color:#FF8A00;
+  font-size:13px;
+}
+.slider .slick-prev,
+.slider .slick-next{
+  display: none !important;
+}
+.slider .slick-dots{
+  display: flex;
+  margin-top: 30px !important;
+  gap: 10px;
+  justify-content: center;
+}
+.slider .slick-dots .slick-active{
+  border-radius: 10px !important;
+  width: 50px !important;
+  height: 10px !important;
+   background-color: #03765F !important;
+  border-color: #03765F !important;
+}
+
+.slider .slick-dots li button {
+  width: 50px !important;
+  height: 10px !important;
+  border-radius: 10px !important;
+  border: solid 1px #C4C4C4 !important;
+  background-color: #C4C4C4 !important;
+  color: transparent !important;
+}
+
+.slider .slick-dots li.slick-active button {
+  background-color: #03765F !important;
+  border-color: #03765F !important;
+}
+/*section 9  */
+
+.section-11{
+  background: linear-gradient(45deg, #00AD8B, #00C39D);
+}
+.sleep-better h2 {
+  font-size: 50px;
+}
+.section-11::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/only-vox-image-1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 99;
+}
+.section-11::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  background-image: url('../images/only-vox-image-2.png');
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+/* section 12 css start */
+
+.pillow-img-3 img{
+  width: 100%;
+  height: 400px;
+}
+.pillow-img-4 img{
+  width: 100%;
+  height: 400px;
+}
+.pillow-img-6 img{
+  width: 100%;
+  height: 226px;
+}
+.pillow-img-7 img{
+  width: 100%;
+  height: 400px;
+}
+.pillow-img-8 img{
+  width: 100%;
+  height: 400px;
+}
+
+/* section 12 css end */
+/* section 13 css start */
+
+.section-13{
+  background:#F7F7F7;
+}
+.subcribe input {
+  width: 65%;
+  outline: none;
+  border: solid 2px #E6E6E6;
+}
+.subcribe a{
+  background:var(--green);
+  left: 50%;
+  margin-top:1.5px;
+}
+/* section 13 css end */
+.sub-icons i:hover{
+  background:var(--green);
+  align-items:center;
+  justify-content:center;
+  padding: 10px 14px;
+  border-radius: 50%;
+}
+.sub-icons i{
+  transition: all 0.5s ease;
+}
+/* footer css start  */
+
+.footer {
+  background: var(--green);
+}
+
+.line{
+  background: #71EAD2;
+  height: 2px;
+  width: 44px;
+
+}
+.footer-menu ul li a::before{
+  content: "";
+  position: absolute;
+  left: -100%;
+  width: 40%;
+  bottom: 0;
+  height: 3px;
+  background-color: white;
+  transition: all 0.5s ease;
+}
+
+.footer-menu ul li a:hover::before {
+  left: 0;
+}
+.footer-menu ul li a:hover{
+  color:#71EAD2 !important;
+}
+/* footer css end  */
+
+.box-main{
+  border: solid 1px var(--green);
+  border-radius: 25px;
+}
+.stock a{
+  background: #20B52633;
+}
+.star i{
+  color: #FFC700;
+}
+.light-icon{
+  color:#CCCCCC !important;
+}
+.pillow-T i{
+  color: var(--green);
+}
+.pillow-T li{
+  color:#545454;
+}
+.from p{
+  text-decoration:line-through;
+  color:#C80E0E;
+}
+.from span,
+.now span{
+  font-size: 12px;
+}
+.now p{
+  text-decoration:line-through;
+  color: var(--green);
+}
+.off p{
+  font-size: 10px;
+  background:#EA4B481A;
+}
+.box-main{
+  background:rgb(225, 253, 248);
+}
+.zoom p{
+  font-size:15px;
+}
+.zoom {
+  border:solid 1px var(--green);
+}
+.view i{
+  background:#6BE4CC;
+}
+.view{
+  background:var(--green);
+  border-bottom-right-radius:20px;
+  border-bottom-left-radius:20px;
+}
+.section-3::before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  width: 20%;
+  height: 100%;
+  background-image: url(../images/image-t-2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.section-3{
+  background:#EBFFF84D;
+}
+.section-3::after {
+  content: "";
+  position: absolute;
+  bottom: -10%;
+  right: 0;
+  width: 15%;
+  height: 50%;
+  background-image: url('../images/imag-t-1.png');
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+}
+
+/* ABOUT US CSS START */
+
+.about-us {
+  border-radius: 20px;
+  background: linear-gradient(to right, #D1F4ED, #B1F1E4, #71EAD2);
+}
+/* ABOUT US CSS END */
+
+/* CHECK OUT CSS START */
+  .check p{
+    color:var(--green);
+  }
+  .thankyou p{
+    color: #B9B9B9;
+  }
+  
+/* CHECK OUT CSS END */
+
