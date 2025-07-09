@@ -91,7 +91,7 @@ h6 {
   height: 18px;
   right: -8px;
 }
-i.fa-heart {
+i.heart {
   border-right: solid 2px var(--green);
 }
 .shopping p {
@@ -318,7 +318,9 @@ border-radius:20px;
   color: black;
   background-color: transparent;
 }
-
+.accordion-button:not(.collapsed)::after {
+    filter: brightness(200%) saturate(100%) invert(88%) sepia(90%) saturate(580%) hue-rotate(10deg) brightness(105%) contrast(105%) !important;
+}
 .accordion-button:not(.collapsed)::after {
   filter: brightness(0) saturate(100%) invert(88%) sepia(90%) saturate(580%) hue-rotate(10deg) brightness(105%) contrast(105%);
 }
@@ -334,7 +336,7 @@ border-radius:20px;
 }
 
 .accordion-button:not(.collapsed)::before {
-  background-color: yellow;
+  background-color: #FFC328;
 }
 
 /* section 6 css end */
@@ -665,7 +667,33 @@ h6.for{
   background-size:100% 100%;
   background-repeat: no-repeat;
 }
-
+.m-icon i{
+  background-color:#C9C9C9;
+  width: 30px;
+  height: 30px;
+  font-size:12px;
+}
+.m-icon i:hover{
+  background:var(--green);
+}
+.s-icon i,
+.heart-icon i,
+.eye-icon i{
+  background-color:var(--green);
+  width: 30px;
+  height: 30px;
+  font-size:12px;
+  transition: all 0.5s ease-in;
+}
+.icon-main-box{
+  top: 5%;
+  left: 5%;
+}
+.heart-icon i:hover,
+.s-icon i:hover,
+.eye-icon i:hover {
+  background-color:#C9C9C9;
+}
 /* ABOUT US CSS START */
 
 .about-us {
