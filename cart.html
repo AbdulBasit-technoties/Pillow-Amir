@@ -71,7 +71,7 @@
               <div class="menu text-capitalize">
                 <ul class="d-flex gap-3 mt-4">
                   <li class=" position-relative"><a href="index.html" class="active">home</a></li>
-                  <li class=" position-relative"><a href="prouducts.html" class="">products</a></li>
+                  <li class=" position-relative"><a href="prouduct.html" class="">products</a></li>
                   <li class=" position-relative"><a href="about-us.html" class="">about us</a></li>
                   <li class=" position-relative"><a href="#" class="">contact's</a></li>
                   <li class=" position-relative"><a href="#" class="">FAQ's</a></li>
@@ -107,7 +107,7 @@
           </div>
         </div>   
       </header>
-       <section class="banner-section my-3">
+      <section class="banner-section my-3">
         <div class="container">
            <div class="row align-items-center">
               <div class="col-lg-12">
@@ -120,74 +120,165 @@
                     <li class="thankyou"><p class="fw-light">Thankyou</p></li>
                   </ul>
                   
-                  <h2 class="fs-1 py-2">Check Out</h2>
+                  <h2 class="fs-1 py-2">My Shopping Cart</h2>
                 </div>
               </div>
             </div>
         </div>
       </section>
-      <section>
+      <section class="shopping-cart-section py-2">
         <div class="container">
           <div class="row">
-            <div class="col-lg-8">
-              <form>
-                <h3>Billing information</h3>
-                <div class="name d-flex">
-                  <div class="form-group">
-                    <label class="">First name</label>
-                    <input type="name" placeholder="Your first name">
+            <div class="col-lg-7">
+              <div class="prouduct-main py-2">
+                <div class="prouduct-value px-3 d-flex">
+                    <div class="col-lg-5">
+                      <div class="your-prouduct">
+                        <p class="mt-2">PROUDUCT</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-2">
+                      <div class="price">
+                        <p class="mt-2">PRICE</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-2">
+                      <div class="quantity">
+                        <p class="mt-2">QUANTITY</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-2">
+                      <div class="subtotal">
+                        <p class="mt-2">SUB TOTAL</p>
+                      </div>
+                    </div>
+                </div>
+                <hr class="border-line">
+                <div class="prouduct-content d-flex px-3 align-items-center">
+                    <div class="col-lg-2">
+                        <div class="cart-img">
+                          <img src="assets/images/cart.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="cart-content">
+                        <h6>Pillow T -Pregnancy</h6>
+                      </div>
+                    </div>
+                    <div class="col-lg-2">
+                      <div class="cart-price">
+                        <p class="m-0">$14.00</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-2">
+                      <div class="add add-value d-flex align-items-center py-2 rounded-pill gap-2 justify-content-center">
+                      <i class="fa-solid fa-minus rounded-circle"></i>
+                      <span class="px-1">5</span>
+                      <i class="fa-solid fa-plus rounded-circle"></i>
+                    </div>
+                    </div>
+                    <div class="col-lg-2">
+                      <div class="total ms-3">
+                        <h6>$70.00</h6>
+                      </div>
+                    </div>
+                    <div class="col-lg-1">
+                      <div class="cancel">
+                        <i class="fa-solid fa-xmark rounded-circle"></i> 
+                      </div>
+                    </div>
                   </div>
-                  <div class="form-group">
-                    <label>Last name</label>
-                    <input type="name" placeholder="Your last name ">
+                  <hr class="border-line mx-2">
+                  <div class="prouduct-content d-flex px-3 align-items-center">
+                    <div class="col-lg-2">
+                        <div class="cart-img">
+                          <img src="assets/images/cart.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="cart-content">
+                        <h6>Pillow T -Pregnancy</h6>
+                      </div>
+                    </div>
+                    <div class="col-lg-2">
+                      <div class="cart-price">
+                        <p class="m-0">$14.00</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-2">
+                      <div class="add add-value d-flex align-items-center py-2 rounded-pill gap-2 justify-content-center">
+                      <i class="fa-solid fa-minus rounded-circle"></i>
+                      <span class="px-1">5</span>
+                      <i class="fa-solid fa-plus rounded-circle"></i>
+                    </div>
+                    </div>
+                    <div class="col-lg-2">
+                      <div class="total ms-3">
+                        <h6>$70.00</h6>
+                      </div>
+                    </div>
+                    <div class="col-lg-1">
+                      <div class="cancel">
+                        <i class="fa-solid fa-xmark rounded-circle"></i> 
+                      </div>
+                    </div>
                   </div>
-                  <div class="form-group">
-                    <label>Company name <span>(optionl)</span></label>
-                    <input type="name" placeholder="Company name">
+                  <hr class="border-line mx-2">
+                  <div class="return-update d-flex px-3 mb-2">
+                    <div class="col-lg-6">
+                      <div class="return">
+                          <a href="#" class="rounded-pill py-2 px-3">Return to shop</a>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="update justify-content-end d-flex">
+                        <a href="#" class="rounded-pill py-2 px-3">Update Cart</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="coupon-main d-flex align-items-center px-3  py-4 mt-3">
+                  <div class="col-lg-3">
+                    <div class="coupon-content">
+                      <h4>Coupon Code</h4>
+                    </div>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="Coupon subcribe position-relative">
+                    <input type="text" placeholder="Enter code" class="rounded-pill w-100 py-2 ps-3">
+                    <a href="#" class="py-2 rounded-pill justify-content-center d-flex  position-absolute text-white">Apply Coupon</a>
                   </div>
                 </div>
-                <div class="address flex-column d-flex">
-                  <label>Street Address</label>
-                  <input type="address" class="w-75" placeholder="email">
-                </div>
-                <div class="country d-flex">
-                  <div class="form-group">
-                    <label>Country/Region</label>
-                    <select class="d-flex">  
-                      <option>Pakistan</option>
-                      <option>India</option>
-                      <option>Bangladesh</option>
-                      <option>Sri Lanka</option>
-                    </select>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="cart-total-main d-flex p-3">
+                  <div class="col-lg-12">
+                    <div class="cart-total-content">
+                      <h5>Cart Total</h5>
+                    </div>
+                    <div class="subtotal d-flex justify-content-between">
+                        <p class="mt-3">subtotal:</p>
+                        <span class="mt-3">$84.00</span>
+                    </div>
+                    <hr class="border-line px-3">
+                    <div class="subtotal d-flex justify-content-between">
+                        <p class="">Shipping:</p>
+                        <span>Free</span>
+                    </div>
+                    <hr class="border-line px-3">
+                    <div class="subtotal d-flex justify-content-between">
+                        <p>total:</p>
+                        <span>$84.00</span>
+                    </div>
+                    <div class="proced-button text-center mt-3">
+                        <a href="check-out.html" class="py-2 px-5 rounded-pill text-white w-75 ">Proced to checkout</a>
+                    </div>
                   </div>
-                  <div class="form-group">
-                    <label>States</label>
-                    <select class="d-flex">  
-                      <option>select</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="email-p d-flex">
-                  <div class="form-group">
-                    <label>Email</label>
-                    <input type="email" placeholder="Email address">
-                  </div>
-                  <div class="form-group">
-                    <label>Phone</label>
-                    <input type="number" placeholder="Phone number">
-                  </div>
-                </div>
-                <div class="check-box">
-                  <input type="checkbox">
-                  <label>Ship to a different address</label>
-                </div>
-                <hr>
-                <h3 class="fs-2">Additional Info</h3>
-                <div class="">
-                  <label class="d-block">Order Not (optional)</label>
-                  <textarea rows="3" cols="75" placeholder="Notes about your order, e.g .special notes for delivery"></textarea>
-                </div>
-              </form>
+              </div>
+
+                <!-- <hr class="border-line"> -->
+
             </div>
           </div>
         </div>
@@ -218,18 +309,20 @@
                 <p class="mt-2">We have a burning interest in skid steer loaders and want to be the obvious choice when someone wants to buy a machine in Sweden. All machines are CE certified.</p>
               </div>
             </div>
+            
             </div>
-            <div class="d-flex flex-wrap">
-              <div class="pillow-img">
-                <div class="pillow-img-3 mt-4 me-4">
+            <div class="col-lg-12">
+              <div class="row">
+                <div class="col-lg-3">
+                <div class="pillow-img-3 mt-4 ">
                   <img data-fancybox="gallary" src="assets/images/Rectangle.png" alt="pillow-img" class="">
                 </div>
                 <div class="pillow-img-4">
                   <img data-fancybox="gallary" src="assets/images/Rectangle-4.png" alt="pillow-img" class="mt-4">
                 </div>
               </div>
-              <div class="pillow-img">
-                <div class="pillow-img-5 mt-4 me-4">
+              <div class="col-lg-6">
+                <div class="pillow-img-5 mt-4 ">
                   <img data-fancybox="gallary" src="assets/images/Rectangle-2.png" alt="pillow-img" class="">
                 </div>
                 <div class="pillow-img-6">
@@ -237,7 +330,7 @@
                 </div>
               </div>
 
-              <div class="pillow-img">
+              <div class="col-lg-3">
                 <div class="pillow-img-7 mt-4">
                   <img data-fancybox="gallary" src="assets/images/Rectangle-3.png" alt="pillow-img" class="">
                 </div>
@@ -245,16 +338,18 @@
                   <img data-fancybox="gallary" src="assets/images/Rectangle-6.png" alt="pillow-img" class="mt-4">
                 </div>
               </div>
+            </div>
               
               <div class="pillow-img d-flex">
-                <div class="pillow-img-9 mt-4 me-4">
+                <div class="pillow-img-9 mt-4 me-3">
                   <img data-fancybox="gallary" src="assets/images/Rectangle-7.png" alt="pillow-img" class="">
                 </div>
                 <div class="pillow-img-10">
                   <img data-fancybox="gallary" src="assets/images/Rectangle-8.png" alt="pillow-img" class="mt-4">
                   </div>
               </div>
-            </div>
+          </div>
+        </div>
       </section>
       <section class="section-13 py-5">
         <div class="container">
@@ -282,6 +377,7 @@
           </div>
         </div>
       </section>
+      
       <footer class="footer py-5">
         <div class="container">
           <div class="row">

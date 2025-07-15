@@ -11,6 +11,7 @@
   --green: #00AD8B;
 }
 p {
+  margin: 0;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.6;
@@ -36,7 +37,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0px;
+  margin: 0px;      
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -721,24 +722,32 @@ h6.for{
 }
 /* ABOUT US CSS START */
 
-.about-us {
+.about-us,
+.prouduct{
   border-radius: 20px;
   background: linear-gradient(to right, #D1F4ED, #B1F1E4, #71EAD2);
 }
 /* ABOUT US CSS END */
 
-/* CHECK OUT CSS START */
-  .check p{
-    color:var(--green);
-  }
-  .thankyou p{
-    color: #B9B9B9;
-  }
-  
-/* CHECK OUT CSS END */
+/* prouduct OUT CSS START */
+.check p{
+  color:var(--green);
+}
+.thankyou p{
+  color: #B9B9B9;
+}
+.prouduct ul li p{
+  font-size: 12px ;
+}
+.prouduct ul li {
+  font-size: 12px ;
+}
 .images-slide img{
-  width: 80px;
-  height: 90px;
+  width: 90px;
+  height: 115px;
+} 
+.slide-image img{
+  height:547px;
 }
 .images-slide i{
   padding:0px 30px 0px 30px;
@@ -793,4 +802,120 @@ i.twitter {
 }
 .quest p{
   color: #0B0B0B80;
+}
+.add {
+  border: solid 1px #E6E6E6;
+}
+.add i{
+  background: #E6E6E6;
+}
+.add-cart a{
+  background: var(--green);
+}
+.select-heart i{
+  background:#BCF3E8D9;
+}
+.category p{
+  font-size:14px;
+}
+.category p span {
+  color: #808080;
+}
+.work-btns hr{
+  height: 1.5px;
+}
+.tabs-content p{
+  color: #808080;
+  font-size: 14px;
+}
+.tabs-content ul li i{
+  background: var(--green);
+}
+.video-img img{
+  height: 300px;
+  border-radius: 10px;
+}
+.video-icon i{
+  width: 40px;
+  height: 40px;
+  background-color: var(--green);
+}
+.video-icon {
+  z-index: 99;
+  top: 35%;
+}
+.save,
+.prouduct-main,
+.coupon-main,
+.cart-total-main{
+  border: solid 1px #E6E6E6;
+  border-radius: 10px;
+}
+.save-content p{
+  font-size: 13px;
+  color: #808080;  
+}
+.save-content h6{
+  font-size: 14px;
+}
+.save-icon i{
+  color: var(--green);
+}
+
+/* prouduct css end  */
+
+/* cart css start  */
+
+.shopping-cart-section {
+  background: #E1FFEF38;
+}
+.cart-img img{
+  width: 90px;
+  height: 90px;
+}
+.cart-price p{
+  color: #808080;
+}
+.cancel i{
+  border: solid 1px #808080;
+  color: #808080;
+  padding: 6px 7px;
+}
+.add-value i{
+  padding: 6px 7px;
+  color: #808080;
+} 
+.add-value{
+  width: 87%;
+}
+.border-line {
+  border: solid 1.5px #E6E6E6;
+}
+.return a,
+.update a{
+  background: #E6E6E6;
+  color: #808080 !important;
+}
+.prouduct-value p{
+  font-size: 13px;
+  color: #808080;
+}
+.Coupon input {
+  width: 95%;
+  outline: none;
+  border: solid 2px #E6E6E6;
+}
+.Coupon a{
+  background: #232726dd ;
+  left: 78%;
+  top: 0;
+  margin-top:1.5px;
+  width: 35%; 
+}
+.subtotal p{
+  color: #808080 !important;
+}
+.proced-button a{
+  transition: all 0.05s ease;
+  background: var(--green);
 }
