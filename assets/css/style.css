@@ -730,6 +730,10 @@ h6.for{
 /* ABOUT US CSS END */
 
 /* prouduct OUT CSS START */
+.prouduct h2,
+.about-us h2{
+  font-size: 80px;
+}
 .check p{
   color:var(--green);
 }
@@ -847,7 +851,8 @@ i.twitter {
 .save,
 .prouduct-main,
 .coupon-main,
-.cart-total-main{
+.cart-total-main,
+.order-main {
   border: solid 1px #E6E6E6;
   border-radius: 10px;
 }
@@ -918,4 +923,67 @@ i.twitter {
 .proced-button a{
   transition: all 0.05s ease;
   background: var(--green);
+}
+
+/* cart css end  */
+
+/* ceck out css start */
+
+.input-form {
+  background: #E1FFEF38;
+}
+.form-main label{
+  font-size: 14px;
+}
+.form-main input,
+.form-main select,
+.form-main  textarea{
+  border: solid 2px #999999;
+  outline: none;
+}
+.form-main select{
+  color: #999999;
+}
+.form-group input {
+  width: 90%;
+}
+.form-group-2 input {
+  width: 65%;
+}
+.address input,
+.form-line{
+  width: 86%;
+}
+.check-box input {
+
+}
+.order-main img{
+  height: 60px ;
+  width: 60px ;
+}
+.order-radio input {
+  width: 20px;
+  height: 20px;
+}
+.order-radio label{
+  color: #808080;
+}
+/* ceck out css end */
+
+
+/* thankyou section css start */
+
+.img-content img {
+  width: 120px;
+}
+.main-recvied {
+  border: solid 2px #E6E6E6;
+  border-radius: 20px;
+}
+.thankyou-content{
+  border-radius: 10px;
+  background:#F4F4F4;
+}
+.thank-price h6{
+  font-size: 12px;
 }
