@@ -852,7 +852,8 @@ i.twitter {
 .prouduct-main,
 .coupon-main,
 .cart-total-main,
-.order-main {
+.order-main,
+.wish-main{
   border: solid 1px #E6E6E6;
   border-radius: 10px;
 }
@@ -874,11 +875,14 @@ i.twitter {
 .shopping-cart-section {
   background: #E1FFEF38;
 }
-.cart-img img{
+.cart-img img,
+.wish-list-img img{
   width: 90px;
   height: 90px;
 }
-.cart-price p{
+.cart-price p,
+.wish-list-prouduct-price-1 span
+.wish-list-prouduct-price p{
   color: #808080;
 }
 .cancel i{
@@ -954,9 +958,6 @@ i.twitter {
 .form-line{
   width: 86%;
 }
-.check-box input {
-
-}
 .order-main img{
   height: 60px ;
   width: 60px ;
@@ -986,4 +987,52 @@ i.twitter {
 }
 .thank-price h6{
   font-size: 12px;
+}
+.color {
+  color: var(--green);
+}
+/* thankyou section css end */
+
+/* wish list section css start */
+
+.wish-list-prouduct p,
+.wish-list-price p,
+.wish-list-stock p,
+.wish-list-add-cart p,
+.wish-list-prouduct{
+  font-size: 14px;
+  color: #808080;
+}
+.stock-button a,
+.add-button a{
+  background: var(--green);
+}
+.add-button a{
+  padding: 10px 40px;
+  font-size: 14px;
+}
+.wish-list-prouduct {
+  text-align: left;
+}
+.wish-list-prouduct h6{
+  font-size: 18px;    
+}
+.share h5{
+  color: #808080;
+}
+.privacy-content p{
+  font-size: 22px;
+  letter-spacing: 0.2px;
+}
+.privacy-content ul{
+  list-style: decimal;
+}
+
+.privacy-content ul li p,
+.privacy-content ul li p span{
+  font-size: 24px;
+}
+
+.circle {
+  list-style: disc !important;
 }
