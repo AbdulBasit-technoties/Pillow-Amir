@@ -1036,3 +1036,63 @@ i.twitter {
 .circle {
   list-style: disc !important;
 }
+/* FAQ CSS START */
+.faq .accordion-item {
+  box-shadow: 10px 9px 400px 13px #00AD8B26;
+  border-radius: 20px;
+  border: none;
+}
+.faq .accordion-collapse {
+  border: none !important;
+}
+
+.faq-section::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: -15%;
+    width: 20%;
+    height: 100%;
+    background-image: url(../images/image-t-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.faq-section::after{
+    content: "";
+    position: absolute;
+    bottom: -10%;
+    right: 0;
+    width: 20%;
+    height: 50%;
+    background-image: url(../images/imag-t-1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.faq-section-container::before{
+    content: "";
+    position: absolute;
+    left: -8%;
+    bottom: -50%;
+    width: 20%;
+    height: 100%;
+    background-image: url(../images/container-t-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.faq-section-container::after{
+    content: "";
+    position: absolute;
+    top: -10%;
+    right: -7%;
+    width: 20%;
+    height: 50%;
+    background-image: url(../images/container-t-1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.latest-sort label,
+.latest-sort p span{
+  color: #808080;
+}
+/* FAQ CSS END */
