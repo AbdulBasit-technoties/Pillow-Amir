@@ -70,7 +70,7 @@ h6 {
   height: 3px;
   transform: scaleX(0);
   transition: all 0.5s ease-in;
-}
+}   
 .menu ul li a:hover::before {
   transform: scaleX(1);
 }
@@ -216,6 +216,9 @@ border-radius:20px;
 }
 /* section 1 css end */
 /* section 2 css start */
+.perfect p{
+  color: #808080;
+}
 .layer-b {
    position: absolute;
   top:10%;
@@ -240,7 +243,7 @@ border-radius:20px;
   border-radius: 25px;
   border: 1px solid var(--green);
 }
-/* section 2 css end */
+/* BANNER CSS END */
 
 /* section 4 css start */
 .layer-b-2{
@@ -407,7 +410,7 @@ border-radius:20px;
 .supporting img,
 .your-pillow img{
   width: 100%;
-  height: 586px;
+  height: 570px;
 }
 .perfect span{
   color: var(--green);
@@ -436,7 +439,7 @@ h6.for{
   top:-47px;
 }
 .your-pillow img{
-  height: 586px;
+  height: 570px;
 }
 .your {
   width: 70%;
@@ -661,6 +664,10 @@ h6.for{
 }
 .view i{
   background:#6BE4CC;
+  color: var(--green);
+}
+.view i{
+  padding: 5px 6px;
 }
 .view{
   background:var(--green);
@@ -1096,3 +1103,179 @@ i.twitter {
   color: #808080;
 }
 /* FAQ CSS END */
+/* BLOGS CSS START */
+.blogs{
+  background-color: #E1FFEF38;
+}
+.latest-sort select{
+  border: 1px solid #E6E6E6;
+  outline: none;
+}
+.latest-box{
+  border: 1px solid #E6E6E6;
+  border-radius: 10px;
+}
+.date-box p,
+.date-box-2 p{
+  width: 58px;
+}
+.date-box {
+  background-color:#FFFFFFD9;
+  top: 46%;
+  border-radius: 10px;
+}
+.date-box span,
+.date-box-2 span{
+  font-size: 14px;
+  color: #808080;
+}
+.coments p,
+.coments i{
+  font-size: 10px;
+}
+.coments i{
+ color: #E6E6E6;
+}
+.latest-button a::before {
+  content: "";
+  position: absolute;
+  left: -100%;
+  width: 100%;
+  bottom: 0;
+  height: 40px;
+  background-color: var(--green);
+  transition: all 0.5s ease;
+  z-index: -1;
+}
+.latest-button a:hover::before {
+  left: 0;
+}
+.latest-button a {
+  font-size: 12px;
+}
+.latest-button a:hover {
+  color: var(--white) !important;
+}
+.latest-button a{
+  color: var(--green) !important  ;
+}
+.date-box-2{
+  background-color:#FFFFFF;
+  top: 46%;
+  border-radius: 10px;  
+}
+.mani-slide p{
+  padding: 5px 12px;
+  font-size: 12px;
+}
+.important{
+  background-color: var(--green) !important;
+}
+.fa-chevron-left {
+  background-color: #F2F2F2;
+}
+.fa-chevron-right {
+  border: 1px solid #E6E6E6;
+}
+.fa-chevron-right,
+.fa-chevron-left{
+  padding: 7px 10px;
+}
+/* BLOGS CSS END */
+.blog-landing h2{
+  font-size: 60px;
+}
+.blog-landing{
+  border-radius: 20px;
+  background: linear-gradient(to right, #D1F4ED, #B1F1E4, #71EAD2);
+}
+.blog-content{
+  width: 80%;
+}
+.prouduct-img-content span{
+  color: #808080;
+  font-size: 13px;
+}
+.pillow-user {
+  border-bottom: 2px solid #E6E6E6;
+}
+.blog-content p{
+  font-size: 16.5px;
+  color: #808080;
+}
+.galllery-product-img img{
+  width: 100%;
+  height: 100%
+}
+.date i{
+  color: var(--green);
+}
+.sleep-content{
+  top: 55%;
+  left: 10%;
+}
+.sleep{
+  width: 85%;
+}
+/* BLOGS CSS START */
+/* CONTACT-US CSS START */
+
+.location-box,
+.just-box{
+  border-radius: 10px;
+}
+.location-icon p,
+.email-icon p,
+.call-icon p,
+.just-box p{
+  font-size: 14px;
+}
+.location-icon i,
+.email-icon i,
+.call-icon i{
+  color: var(--green);
+}
+.location-icon,
+.email-icon{
+  border-bottom: solid 2px #E6E6E6;
+}
+.just-box p{
+  color: #808080  ;
+}
+.email-input input,
+.subject-input input,
+.hello-input input{
+  color: #666666;
+  outline: none;
+  border: 1px solid #E6E6E6;
+  border-radius:5px ;
+}
+.perfect-message a::before {
+  content: "";
+  position: absolute;
+  left: -100%;
+  width: 100%;
+  bottom: 0;
+  height: 40px;
+  background-color: var(--white);
+  transition: all 0.5s ease;
+  border-radius: 20px;
+  z-index: -1;
+}
+.perfect-message a:hover::before {
+  left: 0;
+}
+.perfect-message a {
+  border: solid 1px var(--green);
+  background-color: var(--green);
+  z-index: 999;
+}
+.perfect-message a:hover {
+  color: var(--green) !important;
+}
+.perfect-message a{
+  color: var(--white) !important  ;
+}
+
+
+/* CONTACT-US CSS END */
